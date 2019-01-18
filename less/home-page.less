@@ -109,41 +109,29 @@
       .mobile-design();
   
     }
-    .walk {    
-      width: 100%; 
-      margin-left: -50px;      
-      display: flex;
-      flex-direction: column-reverse;
-      flex-wrap: wrap;
-      align-items: flex-start;  
-      justify-content: flex-start;   
-    
-    .walk-text {
-      width: 110%;      
-      
-    } 
-    .walk-img {
-      width: 110%;
+    .walk {  
+      .mobile-design(100%, flex, column-reverse, flex-start);       
+       justify-content: flex-start;
+
+       .walk-text {
+      width: 100%;
+      }
+      .walk-img {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;      
       margin: 20px 0;             
-      // .children-content-mobile(2, flex-start);
-      // order: 1;
+      .children-content-mobile(3, flex-start);      
     
     }  
   } 
   .btn {
     width: 100%;
     height: 65px;
-    font-size: 2rem;
-    // .children-content-mobile(4, center);
-  
+    font-size: 2rem;  
   } 
-  }
-  
-
-  
+  }  
   
 }
 

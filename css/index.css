@@ -304,22 +304,23 @@ footer {
   }
   .container .walk {
     width: 100%;
-    margin-left: -50px;
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
     align-items: flex-start;
+    padding: 5px;
     justify-content: flex-start;
   }
   .container .walk .walk-text {
-    width: 110%;
+    width: 100%;
   }
   .container .walk .walk-img {
-    width: 110%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 20px 0;
+    flex-grow: 3;
+    align-self: flex-start;
   }
   .container .btn {
     width: 100%;
