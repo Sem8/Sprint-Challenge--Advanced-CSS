@@ -267,9 +267,9 @@ footer {
     align-items: flex-start;
     padding: 5px;
   }
-  .container .footer {
+  .container footer {
     width: 100%;
-    margin-left: 200px;
+    border-radius: 0px;
   }
   .intro {
     width: 100%;
