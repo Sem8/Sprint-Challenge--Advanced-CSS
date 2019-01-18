@@ -1,1 +1,34 @@
 // Mixins Here
+
+// border radius mixin
+.border-radius(@radius) {
+    border-radius: @radus;
+    -webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+}
+
+.button-alignment() {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+// button styles
+.btn-designs(@width: 200px, @height: 50px, @bgcolor: gray, @font-color: black, @font-size: 1.6rem) {
+    width: @width;
+    height: @height;
+    background-color: @bgcolor;
+    color: @font-color;
+    font-size: @font-size;
+    .border-radius(10px);
+    .button-alignment();
+    cursor: pointer;
+    margin: 20px 0;
+
+    &:hover {
+        color: @bgcolor;
+        background-color: @font-color;
+    }
+
+}
+
