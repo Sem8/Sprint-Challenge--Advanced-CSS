@@ -87,71 +87,75 @@
       width: 100%;      
       border-radius: 0px;
     }
-  }
-  .intro {
-    .mobile-design();
-    img {
-      width: 100%;     
+    .intro {
+      .mobile-design();
+      img {
+        width: 100%;     
+      }
     }
-  }
-  .space-images {
-
-    .blast {
-      .children-content-mobile();
-    }
-    .sky {
-      display: none;
-    }
-    .launch {
-      display: none;
-    }
-  }
-  .visit-planets {
-    .mobile-design();
-
-  }
-  .walk {    
-    width: 200%; 
-    // margin-left: -65px;   
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    align-items: stretch;     
+    .space-images {
   
-  .walk-text {
-    margin-left: -60px;
-    // order: 2;
-    // width: 100%;    
-    border: 1px solid black;
-    // display: block;
-    // width: 800px;
-    // .mobile-design();                  
-    .children-content-mobile(4, flex-start);
+      .blast {
+        .children-content-mobile();
+      }
+      .sky {
+        display: none;
+      }
+      .launch {
+        display: none;
+      }
+    }
+    .visit-planets {
+      .mobile-design();
+  
+    }
+    .walk {    
+      width: 100%; 
+      // margin-left: -65px;   
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      align-items: flex-start;  
+      justify-content: flex-start;   
     
+    .walk-text {
+      width: 110%;
+      // margin-left: -60px;
+      // order: 2;
+      // width: 100%;    
+      // border: 1px solid black;
+      // display: block;
+      // width: 800px;
+      // .mobile-design();                  
+      // .children-content-mobile(3, flex-start);
+      
+    } 
+    .walk-img {
+      width: 110%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+      margin: 10px;
+      // margin-right: 200px;
+      // order: 1;
+      // width: 100%;
+      // display: block;
+      // width: 900px;
+      // .mobile-design();         
+      .children-content-mobile(4, flex-start);
+      // order: 1;
+    
+    }  
   } 
-  .walk-img {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-    margin: 20px;
-    // margin-right: 200px;
-    // order: 1;
-    // width: 100%;
-    // display: block;
-    // width: 900px;
-    // .mobile-design();         
-    .children-content-mobile(4, flex-start);
-    // order: 1;
+  .btn {
+    width: 100%;
+    height: 80px;
+    .children-content-mobile(4, center);
   
-  }  
-} 
-.btn {
-  width: 100%;
-  height: 80px;
-  .children-content-mobile(4, center);
-
-} 
+  } 
+  }
+  
 
   
   
