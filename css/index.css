@@ -240,3 +240,22 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.btn {
+  width: 100px;
+  height: 35px;
+  background-color: #22283A;
+  color: white;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.btn:hover {
+  color: #22283A;
+  background-color: white;
+}

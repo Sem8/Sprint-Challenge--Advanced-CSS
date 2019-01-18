@@ -2,25 +2,25 @@
 
 // border radius mixin
 .border-radius(@radius) {
-    border-radius: @radus;
+    border-radius: @radius;
     -webkit-border-radius: @radius;
 	-moz-border-radius: @radius;
 }
 
 .button-alignment() {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 // button styles
-.btn-designs(@width: 200px, @height: 50px, @bgcolor: gray, @font-color: black, @font-size: 1.6rem) {
+.btn-designs(@width: 200px, @height: 50px, @bgcolor: gray, @font-color: black, @font-size: 1.8rem) {
     width: @width;
     height: @height;
     background-color: @bgcolor;
     color: @font-color;
     font-size: @font-size;
-    .border-radius(10px);
+    .border-radius(5px);
     .button-alignment();
     cursor: pointer;
     margin: 20px 0;
