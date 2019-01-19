@@ -1,0 +1,111 @@
+* {box-sizing: border-box}
+
+
+/* input field designs */
+
+input[type=text], input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus {
+    background-color: #fff;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* button styles */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* styles for cancel button */
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* add equal width to cancel and signup button */
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 20%;
+}
+
+/* container style */
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px 0;
+    
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.checkbox {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+/* media query code */
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+    label {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
+    .checkbox label {
+        width: 10%;
+    }
+    .checkbox input {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+

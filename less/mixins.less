@@ -1,1 +1,46 @@
 // Mixins Here
+
+// border radius mixin
+.border-radius(@radius) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+}
+
+.button-alignment() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// button styles
+.btn-designs(@width: 200px, @height: 50px, @bgcolor: gray, @font-color: black, @font-size: 1.8rem) {
+    width: @width;
+    height: @height;
+    background-color: @bgcolor;
+    color: @font-color;
+    font-size: @font-size;
+    .border-radius(5px);
+    .button-alignment();
+    cursor: pointer;
+    margin: 20px 0;
+
+    &:hover {
+        color: @bgcolor;
+        background-color: @font-color;
+    }
+}
+
+// mobile design mixin
+.mobile-design(@width: 100%, @display: flex, @flex-direction: column, @align-items: flex-start) {
+    width: @width;
+    display: @display;
+    flex-direction: @flex-direction;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.children-content-mobile(@flex-grow: 2.5, @align-self: flex-start) {
+    flex-grow: @flex-grow;
+    align-self: @align-self;
+}

@@ -1,0 +1,32 @@
+1. What is the difference between an adaptive website and a fully responsive website?
+
+1 Answer: While both are user experience friendly for mobile users, adaptive website adapts the website contents to fit into the different screen resolutions. But it's not 
+convenient to create because the developers have to make different layouts for each screen size, so it's hard to create all sizes for all screens. 
+Responsive website can be more flexible and can adapt to all screen sizes. Also, it loads faster because there aren't so many layouts created like in adaptive web code.
+
+
+
+2. Describe what it means to be mobile first vs desktop first.
+
+2 Answer: Mobile first means designing optimal code for viewing on mobile first and then moving onto bigger devices. For the code, you start the media query at 500px 
+or around there first, and you set a their min-width in the media query. Desktop first means making the code the optimal for desktop view first before moving onto mobile 
+design. For Desktop first, your media query uses max-width instead of min-width and you start the media query code for styling bigger screen resolutions like 800px max-width first and then write media query code 
+for smaller screen resolutions like 500px.  
+
+
+3. What does font-size: 62.5% in the html tag do for us when using rem units?
+
+3 Answer: The rem default value without setting the parent element to 62.5% is about 16px. Always trying to calculate and account for multiples and divisions of 16 
+becomes hard to do and slows you down. So 62.5% sets rem to 10px since 16px / 10px equates to 100% / 62.5%. Having to divide and multiply in multiples of 10 is much easier to calculate in your head 
+and helps design web pages quicker. 
+
+
+4. How would you describe preprocessing to someone new to CSS?
+4 Answer: Makes your CSS code less DRY, helps you make quicker designs in CSS by automating certain design patterns into pre-defined design template codes. Preprocessors
+are basically programs that help you create a larger amount of CSS code and be able to reuse them over and over again with smaller amount of syntax to save the developer's time. 
+
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5 Answer: My favorite concepts in preprocessing are variables, mixins, parametric mixins and nesting. The import feature becomes a little overwhelming with so many files to digest and keep track of 
+but it's a matter of getting used to. And I don't know about maps and also I haven't been able to implement functions into any projects so far so I'm a little uncomfortable with those 2 concepts. 
+Also, I feel the escape key is kind of unnecessary for me, but maybe in the job market I'll see its practicality. 
